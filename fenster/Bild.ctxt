@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.params=pfad
+comment0.target=Bild(java.lang.String)
+comment0.text=\r\n\ Die\ L\u00C3\u00A4nge\ und\ die\ Breite\ in\ Pixeln\ m\u00C3\u00BCssen\ \u00C3\u00BCbergeben\ werden.\r\n
+comment1.params=pfad\ l\ b
+comment1.target=Bild(java.lang.String,\ int,\ int)
+comment2.params=pfad
+comment2.target=boolean\ bildLaden(java.lang.String)
+comment3.params=io
+comment3.target=void\ imageObserverSetzen(java.awt.image.ImageObserver)
+comment4.params=g
+comment4.target=void\ zeichnen(java.awt.Graphics)
+comment5.params=
+comment5.target=int\ laengeGeben()
+comment6.params=
+comment6.target=int\ breiteGeben()
+comment7.params=l\ b
+comment7.target=void\ groesseAendern(int,\ int)
+comment8.params=
+comment8.target=double\ verhaeltnisLaengeBreiteOriginalBild()
+comment9.params=
+comment9.target=java.awt.image.BufferedImage\ bildGeben()
+numComments=10

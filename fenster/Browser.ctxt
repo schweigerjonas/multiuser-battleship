@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=laenge\ breite
+comment0.target=Browser(int,\ int)
+comment1.params=laenge\ breite\ startseite
+comment1.target=Browser(int,\ int,\ java.lang.String)
+comment2.params=
+comment2.target=void\ init()
+comment3.params=webadresse
+comment3.target=void\ webSeiteLaden(java.lang.String)
+comment4.params=event
+comment4.target=void\ hyperlinkUpdate(javax.swing.event.HyperlinkEvent)
+comment5.params=e
+comment5.target=void\ actionPerformed(java.awt.event.ActionEvent)
+numComments=6

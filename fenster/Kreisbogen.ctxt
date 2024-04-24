@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.params=r\ startwinkel\ winkel\ farbe\ fuellung
+comment0.target=Kreisbogen(int,\ int,\ int,\ java.lang.String,\ boolean)
+comment0.text=\r\n\ Der\ Radius\ in\ Pixeln\ muss\ \u00C3\u00BCbergeben\ werden.\r\n
+comment1.params=r\ startwinkel\ winkel
+comment1.target=Kreisbogen(int,\ int,\ int)
+numComments=2

@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=rx\ ry\ startwinkel\ winkel
+comment0.target=Bogen(int,\ int,\ int,\ int)
+comment1.params=rx\ ry\ startwinkel\ winkel\ farbe\ fuellung
+comment1.target=Bogen(int,\ int,\ int,\ int,\ java.lang.String,\ boolean)
+comment2.params=mx\ my
+comment2.target=void\ koordinatenSetzen(int,\ int)
+comment2.text=\r\n\u00C3\u0153bergabe\ der\ Koordinaten\ des\ Mittelpunkts\ mx\ und\ my\r\n
+comment3.params=g
+comment3.target=void\ zeichnen(java.awt.Graphics)
+numComments=4

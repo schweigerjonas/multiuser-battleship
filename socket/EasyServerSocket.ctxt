@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=EasyServerSocket
+comment1.params=port
+comment1.target=EasyServerSocket(int)
+comment2.params=
+comment2.target=EasySocket\ connect()
+numComments=3

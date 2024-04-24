@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Menupunkt
+comment0.text=\r\n\r\n\ @author\ Fiedler\r\n
+comment1.params=
+comment1.target=Menupunkt()
+comment2.params=text
+comment2.target=Menupunkt(java.lang.String)
+comment3.params=menu
+comment3.target=void\ menuSetzen(javax.swing.JComponent)
+comment4.params=
+comment4.target=javax.swing.JComponent\ menuGeben()
+comment5.params=htmltext
+comment5.target=void\ kommentarHinzufuegen(java.lang.String)
+comment6.params=a
+comment6.target=void\ actionListenerSetzen(java.awt.event.ActionListener)
+numComments=7

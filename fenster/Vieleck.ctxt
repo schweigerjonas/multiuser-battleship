@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.params=x\ y
+comment0.target=void\ punktHinzufuegen(int,\ int)
+comment0.text=\r\n\ Hinzufuegen\ eines\ weiteren\ Punktes\ zum\ Vieleck\r\n\ Die\ Koordinaten\ werden\ relativ\ zum\ ersten\ Punkt\ angegeben.\r\n
+comment1.params=g
+comment1.target=void\ zeichnen(java.awt.Graphics)
+numComments=2

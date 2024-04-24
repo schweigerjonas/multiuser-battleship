@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=dx\ dy\ farbe
+comment0.target=Strecke(int,\ int,\ java.lang.String)
+comment0.text=\r\n\ Die\ L\u00C3\u00A4nge\ und\ die\ Richtung\ der\ Strecke\ k\u00C3\u00B6nnen\ durch\r\n\ einen\ Vektor\ beschrieben\ werden,dessen\ Koordinaten\r\n\ dx\ und\ dy\ vom\ Nutzer\ \u00C3\u00BCbergeben\ werden\ m\u00C3\u00BCssen.\r\n
+comment1.params=dx\ dy
+comment1.target=Strecke(int,\ int)
+comment2.params=dx\ dy\ gerade
+comment2.target=Strecke(int,\ int,\ boolean)
+comment3.params=g
+comment3.target=void\ zeichnen(java.awt.Graphics)
+numComments=4

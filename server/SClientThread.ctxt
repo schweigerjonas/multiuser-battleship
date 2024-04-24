@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=SClientThread
+comment0.text=\r\n\r\n\ @author\ Frank\r\n
+comment1.params=client\ server
+comment1.target=SClientThread(SClient,\ Server)
+comment2.params=
+comment2.target=void\ run()
+numComments=3

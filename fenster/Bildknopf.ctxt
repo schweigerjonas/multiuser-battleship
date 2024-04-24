@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Bildknopf()
+comment1.params=b\ x\ y
+comment1.target=Bildknopf(Bild,\ int,\ int)
+comment2.params=b
+comment2.target=void\ bildSetzen(Bild)
+numComments=3

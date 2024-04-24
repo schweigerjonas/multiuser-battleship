@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.params=l\ b\ bl\ bb\ farbe\ fuellung
+comment0.target=Rundeck(int,\ int,\ int,\ int,\ java.lang.String,\ boolean)
+comment0.text=\r\n\ Die\ L\u00C3\u00A4nge\ und\ die\ Breite\ in\ Pixeln\ m\u00C3\u00BCssen\ \u00C3\u00BCbergeben\ werden.\r\n
+comment1.params=l\ b\ bl\ bb
+comment1.target=Rundeck(int,\ int,\ int,\ int)
+comment2.params=g
+comment2.target=void\ zeichnen(java.awt.Graphics)
+numComments=3

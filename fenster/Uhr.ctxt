@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Uhr()
+comment1.params=ms
+comment1.target=void\ warten(long)
+numComments=2

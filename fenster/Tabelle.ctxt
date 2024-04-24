@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.params=daten\ spaltennamen
+comment0.target=Tabelle(java.lang.String[][],\ java.lang.String[])
+comment1.params=zeilen\ spalten
+comment1.target=Tabelle(int,\ int)
+comment10.params=hoehe
+comment10.target=void\ spaltenhoeheSetzen(int)
+comment2.params=zeilen\ spalten\ spaltennamen
+comment2.target=Tabelle(int,\ int,\ java.lang.String[])
+comment3.params=
+comment3.target=void\ init()
+comment4.params=laenge\ breite
+comment4.target=void\ groesseSetzen(int,\ int)
+comment5.params=inhalt\ i\ j
+comment5.target=void\ inhaltSetzen(java.lang.String,\ int,\ int)
+comment6.params=i\ j
+comment6.target=java.lang.String\ inhaltGeben(int,\ int)
+comment7.params=i\ j\ moeglich
+comment7.target=void\ eingabeMoeglichSetzen(int,\ int,\ boolean)
+comment8.params=moeglich
+comment8.target=void\ eingabeMoeglichSetzenAlle(boolean)
+comment9.params=htmltext
+comment9.target=void\ kommentarHinzufuegen(java.lang.String)
+numComments=11

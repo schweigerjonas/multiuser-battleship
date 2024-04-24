@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.params=
+comment0.target=MausRechtsklickMenu()
+comment1.params=menupunkte
+comment1.target=MausRechtsklickMenu(java.lang.String[])
+comment10.params=a
+comment10.target=void\ actionListenerSetzen(java.awt.event.ActionListener)
+comment2.params=komp
+comment2.target=void\ invokerSetzen(javax.swing.JComponent)
+comment3.params=
+comment3.target=javax.swing.JComponent\ invokerGeben()
+comment4.params=
+comment4.target=void\ mouseListenerStarten()
+comment5.params=me
+comment5.target=void\ mouseReleased(java.awt.event.MouseEvent)
+comment6.params=menupunkte
+comment6.target=void\ menupunkteHinzufuegen(java.lang.String[])
+comment7.params=menupunkt
+comment7.target=void\ menupunktHinzufuegen(java.lang.String)
+comment8.params=
+comment8.target=void\ aktivieren()
+comment9.params=
+comment9.target=void\ deaktivieren()
+numComments=11
