@@ -13,4 +13,12 @@ public class SVServer extends Server{
     public void receiveMessage(String message, SClient client){
          state.receiveMessage(message, client);   
     }
+
+    public static void main(String[] args) {
+          try {
+               new SVServer();
+          } catch (Exception e) {
+               System.err.println("Error: " + e);   
+          }
+     }
 }

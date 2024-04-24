@@ -9,7 +9,8 @@ class SVCreator{
         try {
             new SVCreator();
         } catch (Exception e) {
-            e.printStackTrace();
+              System.err.println("Error: " + e);
+          
         }
     }
 }

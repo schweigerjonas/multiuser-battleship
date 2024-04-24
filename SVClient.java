@@ -13,4 +13,12 @@ public class SVClient extends Client{
      public void receiveMessage(String text){
          view.receiveMessage(text);        
      }
+
+     public static void main(String[] args) {
+        try {
+            new SVClient("localhost");
+        } catch (Exception e) {
+            System.err.println("Error: " + e);
+        }
+     }
 }
