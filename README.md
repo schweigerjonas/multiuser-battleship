@@ -42,14 +42,15 @@ Beispiele: Visual Studio Code
 2. Projekt in Entwicklungsumgebung öffen
 3. Datei "SVClient.java" öffnen
 4. Folgenden Codeabschnitt anpassen:
+```java
     public static void main(String[] args) {
         try {
-            new SVClient("**HIER IP-ADDRESSE EINFÜGEN**");
+            new SVClient("HIER IP-ADDRESSE EINFÜGEN");
         } catch (Exception e) {
             System.err.println("Error: " + e);
         }
      }
-
+```
 ## Verwendung
 
 1. Ein Spieler muss "SVServer.java" ausführen, dies startet des Server und den Client dieses Spielers
