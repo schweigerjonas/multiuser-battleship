@@ -17,6 +17,7 @@ public class SVServer extends Server{
     public static void main(String[] args) {
           try {
                new SVServer();
+               new SVClient("localhost");
           } catch (Exception e) {
                System.err.println("Error: " + e);   
           }
