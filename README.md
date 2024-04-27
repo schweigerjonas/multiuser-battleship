@@ -6,6 +6,7 @@ This project was created as part of a scientific propaedeutic seminar in school.
 
 ## Table of Contents
 
+- [Overview](#overview)
 - [About the Project](#about-the-project)
     - [Built With](#built-with)
 - [Getting Started](#getting-started)
@@ -15,6 +16,17 @@ This project was created as part of a scientific propaedeutic seminar in school.
     - [Two-Users](#two-users)
     - [Single-User](#single-user)
 - [Acknowledgements](#acknowledgements)
+
+## Overview
+
+![Image of the user interface during the battlephase](readme_img/user-interface-battlephase.jpg)  
+
+Image of the user interface during the battle phase of a game. Here, the left field, the "Schlachtfeld" is where you try to hit your opponents ships, and the right field, the "Platzierfeld", is where you place your ships in the placing phase and see where your enemy is shooting.  
+Colors:
+- red: a ship is hit, but not completely destroyed
+- black: a ship is completely destroyed
+- purple: a placed ship that is not yet hit
+- light blue: a shot missed
 
 ## About the Project 
 
