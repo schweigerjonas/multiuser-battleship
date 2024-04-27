@@ -1,62 +1,86 @@
-# Multiuser-Version des Spiels "Schiffe Versenken"
+# Multiuser-"Battleship"
 
-Implementierung des Spieleklassikers "Schiffe Versenken" mit Client-Server-Architekur in Java. 
+Implementation of the classic game "Battleship" for two players in the same network. 
 
-Das Projekt ist im Rahmen meines W-Seminars in der Oberstufe entstanden.
+This project was created as part of a scientific propaedeutic seminar in school.
 
-## Inhaltsverzeichnis
+## Table of Contents
 
-- [Über das Projekt](#über-das-projekt)
-    - [Verwendete Technologien](#verwendete-technologien)
-- [Erste Schritte](#erste-schritte)
-    - [Voraussetzungen](#voraussetzungen)
+- [About the Project](#about-the-project)
+    - [Built With](#built-with)
+- [Getting Started](#getting-started)
+    - [Prerequisites](#prerequisites)
     - [Installation](#installation)
-- [Verwendung](#verwendung)
-- [Danksagungen](#danksagungen)
+- [Usage](#usage)
+    - [Two-Users](#two-users)
+    - [Single-User](#single-user)
+- [Acknowledgements](#acknowledgements)
 
-## Über das Projekt
+## About the Project 
 
-Dieses Projekt erlaubt es zwei Spielern lokal, im selben Netzwerk, gegeneinander das Spiel "Schiffe versenken" zu spielen.
+This project allows two players to play "Battleship" against each other locally, in the same network, on their respective computers.
 
-### Verwendete Technologien
+### Built With
 
-Programmiersprache: Java
-Anmerkung: 
-    Im Rahmen der Seminararbeit wurde mir das Paket "Fenster", welches eine Auswahl an Klassen zur Realisierung der Benutzeroberfläche  beinhaltet, sowie die Pakete "Server", und "Client" vorgegeben, die das Grundgerüst der Client-Server-Architektur beinhält, vorgegeben.
+Programming Language: Java  
+Note: As part of the seminar, I was given the package "Fenster" which includes JavaFX-like classes to create the user-interface, as well as the packages "Client" and "Server" which form the basic structure of the client-server-architecture.
 
-## Erste Schritte
+## Getting Started 
 
-- Download des Projekts durch **beide** Spieler
-- Herausfinden der eigenen IP-Adresse
-    im Terminal/Eingabeaufforderung: **ipconfig**
-    Die IP-Adresse befindet sich unter dem Punkt "Ethernet adapter Ethernet" bei **IPv4 Address**
+### Prerequisites
 
-### Voraussetzungen
-
-Enwicklungsumgebung zum Anpassen der IP-Adresse und Starten des Programms
-Beispiele: Visual Studio Code
+A code editor or IDE needs to be installed in order to change the IP-Address and start the application.  
+Example: Visual Studio Code
 
 ### Installation
 
-1. Projekt downloaden
-2. Projekt in Entwicklungsumgebung öffen
-3. Datei "SVClient.java" öffnen
-4. Folgenden Codeabschnitt anpassen:
-```java
-    public static void main(String[] args) {
+1. Download the Project on GitHub
+2. Find out your IP-Address:
+    - Open terminal/command line
+    - enter: **ipconfig**
+    - search for the line: **IPv4 Address**
+    - note down your IP-Address
+3. Open Project in your Code Editor/IDE
+4. Adjust the following code section in the class "SVClient":  
+
+```Java
+public static void main(String[] args) {
         try {
-            new SVClient("HIER IP-ADDRESSE EINFÜGEN");
+            new SVClient("YOUR IP-ADDRESS HERE");
         } catch (Exception e) {
             System.err.println("Error: " + e);
         }
-     }
+}
+```  
+
+And the following code section in the class "SVServer":  
+
+```Java
+public static void main(String[] args) {
+          try {
+               new SVServer();
+               new SVClient("YOUR IP-ADDRESS HERE");
+          } catch (Exception e) {
+               System.err.println("Error: " + e);   
+          }
+}
 ```
-## Verwendung
 
-1. Ein Spieler muss "SVServer.java" ausführen, dies startet des Server und den Client dieses Spielers
-2. Der zweite Spieler muss auf seinem Rechner "SVClient.java" ausführen
-3. Gespielt wird anhand der Instruktionen auf dem UI
+## Usage 
 
-## Danksagungen
+### Two-Users
 
-Hiermit danke ich meinem Lehrer F.F. für das Bereitstellen der Pakete "Fenster", "Client" und "Server"
+1. Check that you and your opponent have followed the installation instructions 
+2. Open project in code editor/IDE
+3. Player One needs to run "SVServer.java"
+4. Player Two needs to run "SVClient.java"
+
+### Single-User
+
+1. Check whether you have followed the installation instructions
+2. Open project in code editor/IDE
+3. Run "SVCreator.java"
+
+## Acknowledgements 
+
+Frank F.: Thank you to Frank F. for allowing the use of the "Fenster", "Client" and "Server" packages.
